@@ -1,0 +1,86 @@
+body {
+    font-family: "Lato", sans-serif;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    font-weight: 700;
+    margin: 0 1rem;
+}
+
+/*Minimum style for manual modal window control */
+.content {
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 100px auto;
+    font-size: 4rem;
+}
+
+.content button {
+    font-size: 2rem;
+    background-color: #3371d6;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 2rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+content button:hover {
+    background-color: #204582;
+}
+
+.modal {
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_contents {
+    background-color: #fff;
+    padding: 2rem 4rem
+}
+
+.modal_close {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -2rem;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+
+.modal_hidden {
+    display: none;
+}
+
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+

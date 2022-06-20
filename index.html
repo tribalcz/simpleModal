@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>modal Demo</title>
+    <link type="text/css" rel="stylesheet" href="css/modal.css" />
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>My own website</h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <p>We make good products</p>
+        <button id="show-modal">Learn more</button>
+    </div>
+
+    <div class="overlay overlay_hidden"></div>
+    <div class="modal modal_hidden">
+        <div class="modal_contents">
+            <div class="modal_close">
+                <span><img src="images/icon/close.svg" alt="Close" class="responsive" /></span>
+            </div>
+            <p>This is modal content</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/modal.js"></script>
+</body>
+</html>
