@@ -5,7 +5,7 @@ const toggleModal = () => {
 
 
 //By uncommenting, the modal window will open automatically when the page is loaded.
-//Zároveň je nutné zakomentovat nebo odstranit tlačítko a js controll tlačítka modálního okna
+//Added function for automatic opening of modal window after page loading
 //window.onload = toggleModal();
 
 document.querySelector('#show-modal')
